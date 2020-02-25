@@ -1,5 +1,5 @@
 {
-  "name": "aes-ccm",
+  "name": "@kabbi/aes-ccm",
   "version": "1.0.3",
   "description": "AES CCM support using OpenSSL",
   "main": "lib/index.js",
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/erdtman/aes-ccm.git"
+    "url": "git+https://github.com/kabbi/aes-ccm.git"
   },
   "keywords": [
     "aes",
@@ -27,9 +27,9 @@
   "author": "Samuel Erdtman",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/erdtman/aes-ccm/issues"
+    "url": "https://github.com/kabbi/aes-ccm/issues"
   },
-  "homepage": "https://github.com/erdtman/aes-ccm",
+  "homepage": "https://github.com/kabbi/aes-ccm",
   "dependencies": {
     "node-gyp-install": "^2.0.1",
     "node-pre-gyp": "^0.12.0"
@@ -44,7 +44,7 @@
   "binary": {
     "module_name": "aes_ccm",
     "module_path": "./build/Release",
-    "host": "https://github.com/erdtman/aes-ccm/releases/download/",
+    "host": "https://github.com/kabbi/aes-ccm/releases/download/",
     "remote_path": "{version}"
   }
 }
